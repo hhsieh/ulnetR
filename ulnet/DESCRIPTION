@@ -1,0 +1,18 @@
+Package: ulnet
+Type: Package
+Title: Generate an unlimited number of networks based on geometric distance
+Version: 0.1
+Date: 2016-10-17
+Authors@R: person("Hsun-Yi", "Hsieh", email = "hhsiehster@gmail.com", role = c("aut", "cre"))
+Description: This package generates an unlimited number of networks based on
+    user-defined threshold distances or link probability as a negative exponential
+    function of distance.
+License: GNU GPLv3
+LazyData: TRUE
+Imports:
+    igraph,
+    Hmisc
+RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
