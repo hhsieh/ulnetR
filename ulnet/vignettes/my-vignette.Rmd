@@ -1,10 +1,10 @@
 ---
 title: "ulnet: generating an unlimited number of distance-defined networks"
 author: "Hsun-YI Hsieh"
-date: "`Oct 21 2016"
+date: "`r Sys.Date()"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{ulnet}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
