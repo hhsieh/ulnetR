@@ -10,7 +10,7 @@ vignette: >
 ---
 
 ## Introduction
-ulnet is a R package that generates networks based on user-defined distance functions - a distance threshold or a negative exponential function of distance. ulnet works for nodes with spatial coordinates from which distance matrices can be generated.  For nodes with spatial coordinates, ulnet creates networks by limiting linkages between nodes within user-defined geometric distances, or stochastically connecting nodes based on user-defined negative exponential functions of distance. ulnet applies to networks with or with no spatial (polygon) boundaries.  ulnet automatically eliminates nodes if the nodes or nodes they share the same compartments with are within the user-defined distance to spatial boundaries.
+ulnet works for nodes with spatial coordinates from which distance matrices can be generated.  For nodes with spatial coordinates, ulnet creates networks by limiting instances of linkages between nodes within user-defined geometric distances, or stochastically connects nodes based on user-defined negative exponential functions of distance. ulnet applies to networks with or with no spatial (polygon) boundaries.  ulnet automatically eliminates nodes if the nodes or nodes they share the same compartments with are within the user-defined distance to spatial boundaries.
 
 ## Vignette Info
 
