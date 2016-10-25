@@ -10,7 +10,7 @@ vignette: >
 ---
 
 ## Introduction
-ulnet works for nodes with spatial coordinates from which distance matrices can be generated.  For nodes with spatial coordinates, ulnet creates networks by generating linkages between nodes within user-defined geometric distances, or stochastically connects nodes based on user-defined negative exponential functions of distance. ulnet applies to networks with or with no spatial (polygon) boundaries.  ulnet automatically eliminates nodes if the nodes or nodes they share the same compartments with are within the user-defined distance to spatial boundaries.
+ulnet works for nodes with spatial coordinates from which distance matrices can be generated.  For nodes with spatial coordinates, ulnet creates networks based on user-defined geometric distance thresholds (i.e. two nodes are linked with each other is the distance between them is smaller than the distance threshold), or stochastically connects nodes based on user-defined negative exponential functions of distance. ulnet applies to networks with or with no spatial (polygon) boundaries.  ulnet automatically eliminates nodes if the nodes or nodes they share the same compartments with are within the user-defined distance to spatial boundaries.
 
 ## Vignette Info
 
