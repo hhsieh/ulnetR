@@ -5,8 +5,8 @@ Version: 0.1
 Date: 2016-10-17
 Authors@R: person("Hsun-Yi", "Hsieh", email = "hhsiehster@gmail.com", role = c("aut", "cre"))
 Description: This package generates an unlimited number of networks based on
-    user-defined threshold distances or link probability as a negative exponential
-    function of distance.
+    user-defined threshold distances or negative exponential
+    function of distance. It is applicable to nodes with spatial coordinates within a plot or with no plot boundaries.
 License: GNU GPLv3
 LazyData: TRUE
 Imports:
